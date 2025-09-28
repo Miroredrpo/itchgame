@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platformer Dash</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            color: #00b4d8;
+        }
+
+        .play-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            background: #0077b6;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .play-btn:hover {
+            background: #00b4d8;
+            transform: scale(1.05);
+        }
+        
+        .controls {
+            margin-top: 30px;
+            color: #90e0ef;
+            font-size: 1.2rem;
+        }
+        
+        .key {
+            display: inline-block;
+            padding: 5px 10px;
+            background: rgba(0, 180, 216, 0.2);
+            border: 1px solid #00b4d8;
+            border-radius: 4px;
+            font-family: monospace;
+            color: #00b4d8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Platformer Dash</h1>
+    <a href="game.html" class="play-btn">Play Now</a>
+    <div class="controls">
+        <p>Press <span class="key">SPACE</span> to jump</p>
+    </div>
+</body>
+</html>
